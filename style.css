@@ -1,0 +1,48 @@
+body{
+    font-size: 16px;
+    font-family: [Rubik]('https://fonts.google.com/specimen/Rubik');
+    font-weight: 400, 500, 700;
+    background-color: hsl(0, 0%, 100%);
+}
+.cabecalho{
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));   
+    
+}
+.preco{
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%) ); 
+    
+}
+.cabecalho p{
+    color: hsl(276, 100%, 81%);
+}
+.cabecalho h3{
+    color: #fff;
+    font-weight: bold;
+}
+.cabecalho img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.mensagem_esquerda{
+    color: hsl(276, 55%, 52%);
+}
+.mensagem{
+    color: hsl(271, 15%, 43%);
+}
+.preco{
+    color: hsl(206, 6%, 79%);
+}
+.introducao h1{
+    color: hsl(271, 36%, 24%);
+}
+.introducao p{
+    color: hsl(270, 7%, 64%);
+}
+.celular{
+    background-color: hsl(270, 20%, 96%);
+}
+.imagens img{
+    height: 70px;
+    width: 70px;
+}

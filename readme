@@ -5,4 +5,6 @@ demostrativo de aplicativo de bate-papo
 -[x]Definir classes para estilos
 -[ ]Criar estilos 
     -[x]Definir cores e tamanho dos textos
+    -[x]Montar layout do celular
+    -[ ]Ajustar elementos no celular
     -[ ]Alinhar elementos na tela

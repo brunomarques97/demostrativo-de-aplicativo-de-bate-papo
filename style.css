@@ -1,22 +1,23 @@
 body{
-    font-size: 16px;
+    font-size: 12px;
     font-family: [Rubik]('https://fonts.google.com/specimen/Rubik');
     font-weight: 400, 500, 700;
     background-color: hsl(0, 0%, 100%);
-    background-color: red;
     display: inline-flex;
 }
 .cabecalho{
     background-image: linear-gradient(to right, hsl(264, 100%, 61%) , hsl(293, 100%, 63%));   
     display: inline-flex;
-    height: 90px;
-    width: 300px;
+    height: 80px;
+    width: 250px;
     border-radius: 5px;
-
 }
 .preco{
-    background-image: linear-gradient(to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%) ); 
-    
+    background-image: linear-gradient(to right, hsl(293, 100%, 63%) , hsl(264, 100%, 61%) );
+    color: hsl(206, 6%, 79%);
+    width: 130PX;
+    padding-right: 20PX;
+    border-radius: 5PX; 
 }
 .cabecalho p{
     color: hsl(276, 100%, 81%);
@@ -28,20 +29,43 @@ body{
     padding-bottom: 2px;
 }
 .cabecalho img{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
     border: 5px white;
     border-radius: 100px;
     padding: 20px;
 }
 .mensagem_esquerda{
     color: hsl(276, 55%, 52%);
+    background-color: antiquewhite;
+    border-radius: 10PX;
+    width: 200PX;
+    text-align: left;
+}
+.direita{
+    position: relative;
 }
 .mensagem{
     color: hsl(271, 15%, 43%);
+    background-color: #fff;
+    padding: 5px;
+    width: 200Px;
+    border-radius: 10PX;
 }
-.preco{
-    color: hsl(206, 6%, 79%);
+.imagens img{
+    height: 50px;
+    width: 50px;
+}
+.imagens{
+    position: absolute;
+}
+.introducao{
+    position: relative;
+    top: 200px;
+    left: 60%;
+    height: 200px;
+    width: 400px;
+    font-size: 16px;
 }
 .introducao h1{
     color: hsl(271, 36%, 24%);
@@ -50,15 +74,15 @@ body{
     color: hsl(270, 7%, 64%);
 }
 .celular{
-    height: 500px;
-    width: 300px;
+    height: 450px;
+    width: 250px;
     background-color: hsl(270, 20%, 96%);
     border: 5px solid white;
     border-radius: 5px ;
-}
-.imagens img{
-    height: 70px;
-    width: 70px;
+    position: relative;
+    top: 125px;
+    left: 40%;
+    
 }
 .ajuste{
     display: block;
